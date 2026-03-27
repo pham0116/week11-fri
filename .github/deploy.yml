@@ -16,8 +16,8 @@ jobs:
         # installs Node v24 on runner
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
-          cache: 'npm'
+          node-version: "24"
+          cache: "npm"
       - name: Dependencies
         # deletes node_modules and installs dependencies
         run: npm ci
